@@ -16,10 +16,10 @@
 # course, and download/Export the grades from the course. To do this, on the left hand column under Administration,
 # click on Grades | Export | Plain text file | Export format Options (Choose Excluded suspended users,
 # Grade decimal points = 0, Seperator= comma) | Download
-# Server1=> C:\Users\Administrator.CS\Desktop\Moodle_Acceptable_Use_Agreement_Scripts\Agreements_1 Grades-comma_separated.csv
+# Server1=> C:\\Users\\Administrator\\Desktop\\Moodle_Acceptable_Use_Agreement_Scripts\\Agreements_1 Grades-comma_separated.csv
 #
 # 2) Add users that you want to exclude from this script, by adding their information to the exclude list, located below:
-# Server1 => C:\\Users\\Administrator.CS\\Desktop\\Moodle_Acceptable_Use_Agreement_Scripts\\Moodle_excluded_list.csv
+# Server1 => C:\\Users\\Administrator\\Desktop\\Moodle_Acceptable_Use_Agreement_Scripts\\Moodle_excluded_list.csv
 
 #Set-ExecutionPolicy RemoteSigned
 Set-ExecutionPolicy Unrestricted
