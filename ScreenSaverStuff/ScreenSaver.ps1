@@ -11,14 +11,14 @@ $logfile = "C:\ScreenSaverStuff\system-monitoring.log"
  
 function startscript($string, $color)
 {
-   if ($Color -eq $null) {$color = "white"}
+   if ($Color -eq $null) {$color = "green"}
    $s = "$string $(get-date -format `"yyyyMMdd_hhmmsstt`")"
    write-host $s -foregroundcolor green
    $s | out-file -Filepath $logfile -append
 }
 function endscript($string, $color)
 {
-   if ($Color -eq $null) {$color = "white"}
+   if ($Color -eq $null) {$color = "red"}
    $s = "$string $(get-date -format `"yyyyMMdd_hhmmsstt`")"
    write-host $s -foregroundcolor red
    $s | out-file -Filepath $logfile -append
