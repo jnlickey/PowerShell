@@ -8,7 +8,7 @@
 # This script relies on the Account creation script on Server1 or Server2 to create
 # a list of users in the form of email address and username with quotes:
 #
-# "Cheese_Pizza@taylor.edu","cpizza"
+# "Cheese_Pizza@example.com","cpizza"
 #
 # Then this script will generate a new folder if one does not already exist with
 # the current date to keep track of when DB Accounts are created. This script will
